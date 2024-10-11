@@ -99,7 +99,7 @@ public class AuthorizationServerConfig {
     @Bean
     public AuthorizationServerSettings authorizationServerSettings() {
         return AuthorizationServerSettings.builder()
-                .jwkSetEndpoint("/.well-know/jwks.json")
+                .jwkSetEndpoint("/.well-known/jwks.json")
                 .build();
     }
 
